@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyReleased="#keyReleased" prefHeight="129.0" prefWidth="243.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Height.HeightController">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="243.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Change">
+            <items>
+              <MenuItem fx:id="chgBasic" mnemonicParsing="false" onAction="#chg" text="Basic Calculator" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="24.0" layoutY="45.0" text="Feet:" />
+      <TextField fx:id="feet" layoutX="59.0" layoutY="41.0" onKeyReleased="#feetChange" prefHeight="25.0" prefWidth="40.0" />
+      <Label layoutX="122.0" layoutY="45.0" text="Inches:" />
+      <TextField fx:id="inches" layoutX="169.0" layoutY="41.0" onKeyReleased="#inchChange" prefHeight="25.0" prefWidth="40.0" />
+      <Label layoutX="37.0" layoutY="85.0" text="Centimeters:" />
+      <TextField fx:id="cms" layoutX="122.0" layoutY="81.0" onKeyReleased="#centChange" prefHeight="25.0" prefWidth="67.0" />
+   </children>
+</AnchorPane>
