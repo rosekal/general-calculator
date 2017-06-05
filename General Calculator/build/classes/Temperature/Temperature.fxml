@@ -19,6 +19,7 @@
           <Menu mnemonicParsing="false" text="Change">
             <items>
               <MenuItem fx:id="chgBasic" mnemonicParsing="false" onAction="#chg" text="Basic Calculator" />
+                  <MenuItem fx:id="chgHeight" mnemonicParsing="false" onAction="#chg" text="Height Calculator" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Help">

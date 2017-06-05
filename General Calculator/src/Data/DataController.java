@@ -1,4 +1,4 @@
-package Height;
+package Data;
 
 import java.io.IOException;
 import java.net.URL;
@@ -17,7 +17,7 @@ import javafx.stage.Stage;
  *
  * @author Kalen
  */
-public class HeightController{
+public class DataController{
     Scene scene = general.calculator.GeneralCalculator.scene;
     Stage stage = general.calculator.GeneralCalculator.stage;
     

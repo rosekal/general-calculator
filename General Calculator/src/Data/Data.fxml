@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="313.0" prefWidth="365.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Data.DataController{">
+   <children>
+      <MenuBar layoutX="-1.0" layoutY="2.0" prefHeight="25.0" prefWidth="365.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Change">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Basic" />
+                  <MenuItem mnemonicParsing="false" text="Height" />
+                  <MenuItem mnemonicParsing="false" text="Temperature" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="30.0" layoutY="49.0" text="Bytes: " />
+      <Label layoutX="30.0" layoutY="76.0" text="Kilobytes:" />
+      <Label layoutX="30.0" layoutY="103.0" text="Megabytes:" />
+      <Label layoutX="30.0" layoutY="130.0" text="Gigabytes:" />
+      <Group layoutX="28.0" layoutY="64.0" />
+      <TextField layoutX="107.0" layoutY="43.0" />
+      <TextField layoutX="107.0" layoutY="70.0" />
+      <TextField layoutX="107.0" layoutY="97.0" />
+      <TextField layoutX="107.0" layoutY="125.0" />
+      <Label layoutX="30.0" layoutY="157.0" text="Terabytes:" />
+      <TextField layoutX="107.0" layoutY="153.0" />
+      <Label layoutX="30.0" layoutY="185.0" text="Petabytes:" />
+      <TextField layoutX="107.0" layoutY="181.0" />
+      <Label layoutX="30.0" layoutY="213.0" text="Exabytes:" />
+      <TextField layoutX="107.0" layoutY="209.0" />
+      <Label layoutX="30.0" layoutY="241.0" text="Zettabytes:" />
+      <TextField layoutX="107.0" layoutY="237.0" />
+      <Label layoutX="30.0" layoutY="269.0" text="Yottabytes:" />
+      <TextField layoutX="107.0" layoutY="265.0" />
+   </children>
+</AnchorPane>
